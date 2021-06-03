@@ -1,6 +1,6 @@
 # May 2021 On-The-Fly Hackathon
 
-On the 15th and 16th of May 2021, we had a small hackathon as part of the On-The-Fly project at Creative Coding Utrecht. There were seven people involved: Fabian Van Sluijs, Felipe Ignacio Noriega, Ibo, Sietse van der Meer, Timo Hoogland, Vera van de Seyp, and I, Raphael Sousa Santos. Our source material was the preliminary result of an online survey targeted at creative coders, related institutions, and their audience. We had three main goals:
+On the 15th and 16th of May 2021, we had a small hackathon as part of the On-The-Fly project at Creative Coding Utrecht. There were seven people involved: Fabian Van Sluijs, Felipe Ignacio Noriega, Ibo Ibelings, Sietse van der Meer, Timo Hoogland, Vera van de Seyp, and I, Raphael Sousa Santos. Our source material was the preliminary result of an online survey targeted at creative coders, related institutions, and their audience. We had three main goals:
  * To make sense of the response of the survey and see how we could improve it going forward
  * To experiment with the data in the responses and present it in creative ways
  * To experiment with this format of hackathon and think about out how to host a larger one in a similar format
@@ -13,7 +13,7 @@ The Saturday ended with Timo sharing the output of his sonification of the respo
 In parallel, Fabian and Vera had been working on a hand curated database of creative coders and related institutions. Felipe worked on merging the two sources of information, which led to us having more data to play with on Sunday. The day ended with Vera and Ibo showing us their D3.js-based visualizations. Both really illustrated the complexity of the data set.
 
 In the end, we felt that the format worked. We ended up with multiple presentations of the data, the 2 D3.js visualizations and the 2 sonifications based on speech synthesis, and having an API in place. More importantly, we now also have an idea of the next steps towards exposing this data to a wider audience with the goal of growing it into a community knowledge base of creative coding practitioners and resources:
- * Update the survey questions based on our insights going through the responses
+ * Update the survey questions based on our insights going through the responses [link to survey](https://onthefly.creativecodingutrecht.nl)
  * Improve the survey interface and response storage format to capture the data in a more structured format. For example, on questions that allow multiple answers, such as when we ask what tools people are using, we would provide multiple input fields instead of a single text field as we currently do. This should make it easier to process the responses later
  * Improve the API. The two immediate points to address are to make it more robust regarding error handling and to make it read the data from a production database instead of from a JSON file
  * Productionize the API in order to have it publicly available
